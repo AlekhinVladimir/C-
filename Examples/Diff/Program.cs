@@ -1,4 +1,4 @@
-﻿int numberA = 10;
-int numberB = 2;
-Console.writeline (numberA / numberB);
+﻿double numberA = 11;
+double numberB = 2;
+Console.WriteLine(numberA / numberB);
 
