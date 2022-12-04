@@ -39,4 +39,6 @@ internal class Program
                 Console.WriteLine("Max = " + a);
             }
         }
+    }
+}
            
