@@ -3,5 +3,17 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WtiteLine("Введите число a= ");
+Console.WriteLine("Введите число a = ");
 int a = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите число b = ");
+int b = int.Parse(Console.ReadLine());
+
+if (a<b)
+{
+    Console.WriteLine("Max = "+ b);
+}
+else 
+{
+    Console.WriteLine("Max = "+ a);
+}
