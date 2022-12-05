@@ -6,7 +6,7 @@
 Console.Write("Введите цифру, обозначающую день недели: ");
 int dayNumber = Convert.ToInt32(Console.ReadLine());
 
-if (dayNumber == 6 || dayNumber == 7)
+if (dayNumber == 6 || dayNumber == 7) // || - логическое "или", где любой вариант выбора верный.
 {
     Console.WriteLine("(Это выходной день.) -> да");
 }
