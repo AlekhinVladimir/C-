@@ -3,3 +3,13 @@
 // 8 -> 2, 4, 6, 8
 
 
+Console.WriteLine("Введите число N - ");
+int n = int.Parse(Console.ReadLine());
+int i = 1;
+
+while (i <= n)
+ {
+     if (i % 2 == 0)
+    Console.Write("{0} ", i);
+    ++i;
+ }
