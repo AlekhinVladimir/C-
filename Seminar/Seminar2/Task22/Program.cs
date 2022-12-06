@@ -4,3 +4,12 @@
 // 2 -> 1,4
 // Задача 22
 
+Console.WriteLine("Введите число - ");
+int A = int.Parse(Console.ReadLine()!);
+int B = 1;
+while(B<=A)
+{
+    if (B == A) Console.Write(B * B + ". ");
+    else Console.Write(B * B + ", "); 
+    B++;
+}
