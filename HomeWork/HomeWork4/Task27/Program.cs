@@ -12,7 +12,6 @@ Console.WriteLine($"Сумма цифр в числе = {GetSummNums(num)}");
 
 int GetSummNums(int number)
 {
-    int count = 0;
     int last = 0;
     int Summ = 0;
     while (number> 0)
