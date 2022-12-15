@@ -1,0 +1,5 @@
+F:\GeekBrains\C#\Seminar\Seminar3\Task30\obj\Debug\net7.0\Task30.csproj.AssemblyReference.cache
+F:\GeekBrains\C#\Seminar\Seminar3\Task30\obj\Debug\net7.0\Task30.GeneratedMSBuildEditorConfig.editorconfig
+F:\GeekBrains\C#\Seminar\Seminar3\Task30\obj\Debug\net7.0\Task30.AssemblyInfoInputs.cache
+F:\GeekBrains\C#\Seminar\Seminar3\Task30\obj\Debug\net7.0\Task30.AssemblyInfo.cs
+F:\GeekBrains\C#\Seminar\Seminar3\Task30\obj\Debug\net7.0\Task30.csproj.CoreCompileInputs.cache
