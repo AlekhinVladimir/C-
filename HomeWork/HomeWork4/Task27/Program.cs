@@ -17,8 +17,8 @@ int GetSummNums(int number)
     int Summ = 0;
     while (number> 0)
     {
-        last =number - number % 10;
-        Summ+=(number-last);
+        last =number % 10;
+        Summ+=last;
         number/=10;
     }
     return Summ;
