@@ -1,0 +1,15 @@
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\bin\Debug\net7.0\Task24.exe
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\bin\Debug\net7.0\Task24.deps.json
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\bin\Debug\net7.0\Task24.runtimeconfig.json
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\bin\Debug\net7.0\Task24.dll
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\bin\Debug\net7.0\Task24.pdb
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\Task24.csproj.AssemblyReference.cache
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\Task24.GeneratedMSBuildEditorConfig.editorconfig
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\Task24.AssemblyInfoInputs.cache
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\Task24.AssemblyInfo.cs
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\Task24.csproj.CoreCompileInputs.cache
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\Task24.dll
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\refint\Task24.dll
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\Task24.pdb
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\Task24.genruntimeconfig.cache
+F:\GeekBrains\C#\Seminar\Seminar3\Task24\obj\Debug\net7.0\ref\Task24.dll
