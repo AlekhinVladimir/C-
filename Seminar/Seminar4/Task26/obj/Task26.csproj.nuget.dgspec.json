@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GeekBrains\\C#\\Seminar\\Seminar3\\Task26\\Task26.csproj": {}
+    "F:\\GeekBrains\\C#\\Seminar\\Seminar4\\Task26\\Task26.csproj": {}
   },
   "projects": {
-    "F:\\GeekBrains\\C#\\Seminar\\Seminar3\\Task26\\Task26.csproj": {
+    "F:\\GeekBrains\\C#\\Seminar\\Seminar4\\Task26\\Task26.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GeekBrains\\C#\\Seminar\\Seminar3\\Task26\\Task26.csproj",
+        "projectUniqueName": "F:\\GeekBrains\\C#\\Seminar\\Seminar4\\Task26\\Task26.csproj",
         "projectName": "Task26",
-        "projectPath": "F:\\GeekBrains\\C#\\Seminar\\Seminar3\\Task26\\Task26.csproj",
+        "projectPath": "F:\\GeekBrains\\C#\\Seminar\\Seminar4\\Task26\\Task26.csproj",
         "packagesPath": "C:\\Users\\Etanaru\\.nuget\\packages\\",
-        "outputPath": "F:\\GeekBrains\\C#\\Seminar\\Seminar3\\Task26\\obj\\",
+        "outputPath": "F:\\GeekBrains\\C#\\Seminar\\Seminar4\\Task26\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Etanaru\\AppData\\Roaming\\NuGet\\NuGet.Config"
