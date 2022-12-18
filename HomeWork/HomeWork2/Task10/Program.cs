@@ -4,7 +4,7 @@
 // 918 -> 1
 
 Console.WriteLine("Введите трехзначное число: ");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine()!);
 
 int a1=a/10;
 int a2=a1%10;

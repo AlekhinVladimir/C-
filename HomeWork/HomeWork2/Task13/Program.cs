@@ -5,7 +5,7 @@
 
 
 Console.Write("Введите число: ");
-int num = Math.Abs(int.Parse(Console.ReadLine()));
+int num = Math.Abs(int.Parse(Console.ReadLine()!));
 if (num < 100)
 {
     Console.WriteLine($"Третьей цифры нет");
