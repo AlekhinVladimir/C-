@@ -3,7 +3,7 @@
 
 // [345, 897, 568, 234] -> 2
 
-int[] CreateArrayRndInt(int size, int start, int end)
+int[] CreateArrayRndInt(int size, int start, int end)  
 {
     int[] array = new int[size];
     for (int i = 0; i < array.Length; i++) array[i] = new Random().Next(start, end);
@@ -27,7 +27,7 @@ int CountEvenNumbersArray(int[] collection)
     return count;
 }
 
-int[] testArray = CreateArrayRndInt(10, 100, 1000);
+int[] threeDigitArray = CreateArrayRndInt(10, 100, 1000);  // Вывод именно трехзначных чисел от 100 до 999
 
-PrintArray(testArray);
-Console.Write($" => {CountEvenNumbersArray(testArray)}");
+PrintArray(threeDigitArray);
+Console.Write($" => {CountEvenNumbersArray(threeDigitArray)}");

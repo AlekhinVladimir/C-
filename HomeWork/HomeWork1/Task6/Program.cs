@@ -5,7 +5,7 @@
 
 
 Console.WriteLine("Введите число a = ");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine()!);
 
 if (a % 2 == 0)
    {
