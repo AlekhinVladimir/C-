@@ -10,7 +10,7 @@ void CountGreaterThen0 (string[] numbers)
     {
         if (int.Parse(digit) > 0) count++;
     }
-    Console.WriteLine($"\nЧисел больше 0 -> {count}");
+    Console.WriteLine($"Чисел больше 0 -> {count}");
 }
 
 Console.Write("Введите числа через пробел или запятую: ");
