@@ -2,42 +2,64 @@
 // [1 2 3 4 5] -> [5 4 3 2 1]
 // [6 7 3 6] -> [6 3 7 6]
 
-int[] array = GetArray(9, 0, 10);
-Console.WriteLine(string.Join(" ", array));
+int[,] GetArray(int m, int n, int start, int end)
+{
+    int[,] array = new int[m, n];
+    for (int i = 0; i < m; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            array[i, j] = new Random().Next(start, end);
+        }
+    }
+    return array;
+}
+
+
+int[,] ReplaceElemEvenIndexSquaring(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        if (i % 2 == 0)
+        {
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                if (j % 2 == 0) array[i, j] *= array[i, j];
+            }
+        }
+    }
+    return array;
+}
+
+
+void PrintArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+}
+
+
+Console.Write("Input rows array: ");
+int rows = int.Parse(Console.ReadLine()!);
+
+Console.Write("Input columns array: ");
+int columns = int.Parse(Console.ReadLine()!);
+
+Console.Write("Input start rnd: ");
+int start = int.Parse(Console.ReadLine()!);
+
+Console.Write("Input end rnd: ");
+int end = int.Parse(Console.ReadLine()!);
+
+
+int[,] array = GetArray(rows, columns, start, end);
+
+PrintArray(array);
 Console.WriteLine();
-int[] reversArray = ReversArray2(array);
-//ReverseArray1(array);
-Console.WriteLine(string.Join(" ", reversArray));
-
-int[] GetArray(int size, int minValue, int maxValue)
-{
-int[] res = new int[size];
-
-for (int i = 0; i < size; i++)
-{
-res[i] = new Random().Next(minValue, maxValue);
-
-}
-return res;
-}
-
-void ReverseArray1(int[] inArray)
-{
-for (int i = 0; i < inArray.Length / 2; i++)
-{
-int k = inArray[i];
-inArray[i] = inArray[inArray.Length - 1 - i];
-inArray[inArray.Length - 1 - i] = k;
-}
-
-}
-
-int[] ReversArray2(int[] inArray)
-{
-int[] result = new int[inArray.Length];
-for (int i = 0; i < inArray.Length; i++)
-{
-result[i] = inArray[inArray.Length - 1 - i];
-}
-return result;
-}
+PrintArray(ReplaceElemEvenIndexSquaring(array));
