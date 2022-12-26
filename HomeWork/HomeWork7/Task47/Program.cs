@@ -38,10 +38,10 @@ int rows = int.Parse(Console.ReadLine()!);
 Console.Write("Введите количество столбцов: ");
 int columns = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите число начала вещественных чисел: ");
+Console.Write("Введите минимальное число диапазона: ");
 int start = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите число конца вещественных чисел: ");
+Console.Write("Введите максимальное число диапазона: ");
 int end = int.Parse(Console.ReadLine()!);
 
 double[,] array = GetArray(rows, columns, start, end);
