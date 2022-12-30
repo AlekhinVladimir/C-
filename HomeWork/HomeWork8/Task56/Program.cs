@@ -6,7 +6,7 @@
 // 5 2 6 7
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 
-
+Console.Clear();
 Console.WriteLine("введите размер квадратного массива");
 int massVol = Convert.ToInt32(Console.ReadLine());
 int[,] numbers = new int[massVol, massVol];

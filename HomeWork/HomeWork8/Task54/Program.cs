@@ -8,7 +8,7 @@
 // 9 5 3 2
 // 8 4 4 2
 
-
+Console.Clear();
 Console.WriteLine("введите количество строк");
 int linesVol = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите количество столбцов");
