@@ -20,7 +20,7 @@ int GetNumber()
     Console.WriteLine("Введите число");
     string text = Console.ReadLine();
 
-    string[] sentence ={"ты не знаешь что такое число? 1, 2, 5, 10... \nПопробуй еще раз. Я верю -ты сможешь!"};
+    string[] sentence ={"Введите корректное число!"};
 
     if(!int.TryParse(text, out int number))
     {
