@@ -67,7 +67,7 @@ int[] FindMinElement(int[,] Matrix) // находим минимальный э�
     int[] Temporary = { minI, minJ }; // координаты строчки и столбца
     return Temporary;
 }
-int[,] NewArray(int[,] OriginalArray, int[] Coordinati)
+int[,] NewArray(int[,] OriginalArray, int[] Coordinati)     //самое непонятное и самое важное. проверка индексов и смещение строк и столбцов.
 {
     int newrow = 0;
     int newcolumn = 0;
