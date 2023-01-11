@@ -5,10 +5,10 @@
 int Degree(int a, int b)
 {
 if (b == 0) return 1;
-else return a * Degree(a, b - 1);
-}
-Console.WriteLine("Введите число a: ");
-int n = Math.Abs(int.Parse(Console.ReadLine()!));
-Console.WriteLine("Введите число b: ");
-int m = Math.Abs(int.Parse(Console.ReadLine()!));
-Console.WriteLine(Degree(n, m));
+else return a * Degree(a, b - 1); // b=3 ; a* b=2; a* b=1 a*; b=0 1
+} // a* a* a* 1
+Console.WriteLine("Введите положительное число a: ");
+int n = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите положительное число b: ");
+int m = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"Число {n} в степени {m} равно {Degree(n, m)}");
