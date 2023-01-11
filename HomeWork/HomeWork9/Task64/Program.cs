@@ -18,7 +18,7 @@ void PrintNumMN (int m, int n)
 int GetNumber()
 {
     Console.WriteLine("Введите число");
-    string text = Console.ReadLine();
+    string text = Console.ReadLine()!;
 
     string[] sentence ={"Введите корректное число!"};
 
